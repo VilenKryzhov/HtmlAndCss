@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    max-width: 1200px;
+    padding: 50px 5px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    height: 100vh;
+    background: url("photo/hero image (1).jpg") no-repeat center/cover;
+}
+.header_top{
+    display: flex;
+    justify-content: space-between;
+}
+.header_top_left img{
+    width: 120px;
+    height: 80px;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    border-right: 1px solid #FFFFFF;
+    height: 70%;
+    padding-right: 20px;
+}
+.nav_item a{
+
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav_item  a:hover{
+    color: #dca217;
+}
+.nav_item img{
+    width: 20px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0px 20px;
+    width: 23%;
+}
+.contact_phone {
+
+    font-size: 23px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.contact_phone a{
+    width: 40px;
+    margin-right: 8px;
+}
+.contact_info{
+    font-size: 18px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.knopka{
+    padding: 14px 19px;
+    height: 47px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #FF7400;
+    margin-left: 10px;
+}
+
+.main{
+    margin-left: 181px;
+    margin-top: 322px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+
+}
+.main_head{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main_head h2{
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+}
+.main_head h1{
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+
+}
+.main_head p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.main_head p::before,
+.main_head p::after{
+    content: "";
+    height: 2px;
+    width: 61px;
+    background: #C4C4C4;
+    display: block;
+}
+.main_head p::before{
+    margin-right: 10px;
+}
+.main_head p::after{
+    margin-left: 10px;
+}
+.knopka1{
+    padding: 14px 19px;
+    height: 47px;
+    color: #FFFFFF;
+    background: #FF7400;
+    margin-left: 10px;
+    width: 137px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+}
+.button_down{
+    margin: 0 auto;
+    width: 100%;
+}
+.btn{
+    display: none;
+    flex-direction: column;
+    row-gap: 6px;
+    background: none;
+    border: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn_item{
+    width: 32px;
+    height: 3px;
+    background: #FF7400;
+    border-radius: 10px;
+
+
+
+}

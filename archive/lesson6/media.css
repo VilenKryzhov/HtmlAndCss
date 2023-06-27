@@ -1,0 +1,50 @@
+@media screen and (max-width: 400px) {
+    .header_top_right{
+        display: none;
+    }
+    .wrapper{
+        width: 350px;
+        padding:20px 14px;
+        margin: 0 auto;
+    }
+    .header_top_left img{
+        width: 80px;
+    }
+    .header_top_left img{
+        width: 43.77px;
+        height: 31.77px;
+    }
+    .btn{
+        display: flex;
+    }
+    .main{
+        width: 350px;
+        margin: 300px 10px;
+        height: 119px;
+        align-items: center;
+
+
+    }
+    .main_head{
+        justify-content: center;
+
+    }
+    .main_head p::before,
+    .main_head p::after{
+        display: none;
+    }
+    .main_head h2 {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .main_head h1 {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .knopka1{
+        margin-top: 30px;
+    }
+
+}

@@ -1,0 +1,24 @@
+@media screen and (max-width: 992px){
+    .father{
+        padding: 40px;
+    }
+    .father_head{
+        height: 80px;
+        border-radius: 12px;
+    }
+
+    .father_foot{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .foot_item1{
+        width: 100%;
+        padding-top: 40px;
+    }
+    .foot_item2{
+        width: 100%;
+        height: 80px;
+        padding-top: 40px;
+    }
+}

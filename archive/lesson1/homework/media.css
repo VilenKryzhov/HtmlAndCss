@@ -1,0 +1,16 @@
+@media (max-width: 400px) {
+    .header_top_right{
+        display: none;
+    }
+    .wrapper{
+        width: 350px;
+        padding:20px 14px;
+        margin: 0 auto;
+    }
+    .header_top_left img{
+        width: 80px;
+    }
+    .header{
+        background-color: #f5f5f5
+    }
+}

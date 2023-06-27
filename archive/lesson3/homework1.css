@@ -1,0 +1,28 @@
+b {
+    width: 100%;
+    text-align: center;
+}
+.target{
+    display: flex;
+    text-align: center;
+}
+.item{
+    height: 180px;
+    width: 180px;
+
+    background: #dca217;
+    margin: 30px;
+    box-shadow: 20px 20px 5px #797777;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.item1 {
+    border-radius: 5px;
+}
+.item2{
+    box-shadow: 20px 20px 5px #cac6c6;
+}

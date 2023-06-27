@@ -1,0 +1,38 @@
+* {
+    margin: 1px;
+    padding: 0;
+}
+.flex{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.father{
+    border: 3px solid black;
+    border-radius: 7px;
+    padding: 15px;
+}
+.father_head{
+    height: 250px;
+    background: #a8a8a8;
+    border-radius: 10px;
+}
+.father_foot{
+    row-gap: 10px;
+    padding-top: 15px;
+    display: flex;
+    column-gap: 15px;
+}
+.foot_item1{
+    width: 70%;
+    height: 400px;
+    background: #a8a8a8;
+    border-radius: 10px;
+}
+.foot_item2{
+    width: 30%;
+    height: 400px;
+    background: #a8a8a8;
+    border-radius: 10px;
+
+}

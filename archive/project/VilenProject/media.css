@@ -1,0 +1,237 @@
+@media screen and (max-width: 800px){
+    .top_right{
+        display: none;
+    }
+    .top2{
+        column-gap: 0px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0px 10px;
+    }
+
+    .katalog{
+    display: none;
+    }
+    .catalog{
+        height: 50px;
+        width: 50px;
+    }
+    .header{
+        padding: 0px 10px;
+    }
+    .header_search_right input{
+        width: 290px;
+        margin-left: 20px;
+    }
+    .wrapper{
+        column-gap: 13px;
+        padding-left: 15px;
+    }
+    .scroll{
+        display: none;
+    }
+    .catalog_left_info{
+        padding-left: 5px;
+
+    }
+    .catalog_left_info h{
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .catalog_left_image img{
+        width: 300px;
+    }
+    .catalog_left_info button{
+        width: 131px;
+        height: 46px
+    }
+    .catalog_right_info{
+        width: 239px;
+    }
+    .left_item img{
+        width: 70px;
+    }
+    .left_item{
+        margin-left: 10px;
+    }
+    .right_item{
+        row-gap: 4px;
+    }
+    .knopka{
+        position: relative;
+        left: -55px;
+        bottom: -43px;
+    }
+    .d_none{
+        display: none;
+    }
+    .centr_menu{
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 25px;
+    }
+    .centr_menu_item{
+        line-height: 10px;
+    }
+    .footer{
+        margin: 0px 10px
+    }
+    .final_info{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .img_media{
+        width: 220px;
+    }
+    .centr_menu_item h{
+        font-size: 16px;
+    }
+
+}
+@media screen and (max-width: 733px) {
+    .wrapper{
+        display: none;
+    }
+    .header_search_right input{
+        width: 504px;
+    }
+    .header_catalog{
+        flex-wrap: wrap;
+    }
+    .header_catalog_right{
+        flex-direction: row;
+        margin-top: 10px;
+        column-gap: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+    .catalog_right_info{
+        width: 50%;
+    }
+    .header_catalog_left{
+        justify-content: space-around;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu_item{
+        justify-content: center;
+    }
+    .d_none1{
+        display: none;
+    }
+    .centr_menu{
+        justify-content: space-around;
+    }
+    .img_media{
+        width: 230px;
+    }
+    .centr_menu_item h{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 605px) {
+    .header_search_right input{
+        width: 450px;
+    }
+}
+@media  screen and (max-width: 450px){
+    .top2_info2{
+        display: none;
+    }
+    .top2_info3{
+        display: none;
+    }
+    .header_search_right input {
+        width: 300px;
+    }
+    .header_catalog_left{
+        height: 300px;
+    }
+    .catalog_left_image img{
+        width: 252px;
+    }
+    .catalog_left_info{
+        bottom: 14px;
+    }
+    .catalog_left_info p1{
+        line-height: 7px;
+        font-size: 19px;
+    }
+    .catalog_left_info h{
+        font-size: 19px;
+    }
+    .catalog_left_info p2{
+       font-size: 28px;
+    }
+    .catalog_left_info button{
+        width: 120px;
+        height: 40px;
+    }
+    .d_none3{
+        display: none;
+    }
+    .catalog_right_info{
+        width: 100%;
+    }
+    .final_info_second{
+        width: 76%;
+    }
+    .second_item{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .second_item1{
+        flex-direction: column;
+    }
+    .final_info_second{
+        row-gap: 25px;
+    }
+}
+@media  screen and (max-width: 365px){
+    .d_none4{
+        display: none;
+    }
+    .info1_words h3{
+        font-size: 18px;
+    }
+    .info1_words p{
+        font-size: 13px;
+    }
+    .top2{
+        justify-content: center;
+        row-gap: 10px;
+    }
+    .header_search_right input{
+        width: 220px;
+    }
+    .header_catalog_left {
+        height: 250px;
+    }
+    .catalog_left_image img{
+        width: 200px;
+    }
+    .catalog_left_info h{
+         font-size: 15px;
+     }
+    .catalog_left_info p2{
+        font-size: 24px;
+    }
+    .catalog_left_info button{
+        width: 107px;
+        height: 37px;
+    }
+    .header_menu a{
+        font-size: 16px;
+    }
+    .final_info{
+        justify-content: start;
+    }
+    .final_info_second{
+        margin-left: 40px;
+    }
+    .final_image{
+        column-gap: 59px;
+    }
+}

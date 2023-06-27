@@ -1,0 +1,5 @@
+@media scree and (max-width: 400px) {
+.conteiner{
+    display: none;
+}
+}
